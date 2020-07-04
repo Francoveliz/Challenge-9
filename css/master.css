@@ -144,6 +144,7 @@ margin-bottom: 27px;
   display: flex;
   align-items:flex-start;
   margin:18px 0;
+  width: 100%;
 }
 
 .footer-text i{
