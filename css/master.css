@@ -28,18 +28,25 @@ width: 100%;
 header{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom:130px;
+  margin-top: 36px;
+}
+.logo{
+  max-width: 45%;
 }
 header button{
   border:none;
+  max-width: 45%;
+  width: 150px;
   height: 50px;
-  padding: 0 36px;
   border-radius: 36px;
   background: #fff;
   -webkit-box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.3);
 -moz-box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.3);
 box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.3);
 font-weight: bold;
+
 }
 p{
   font-size: 18px;
@@ -72,7 +79,7 @@ margin-bottom: 36px;
   margin-bottom: 4rem;
 }
 .cards{
-  margin-bottom: 300px;
+  margin-bottom: 200px;
 }
 .cards > *{
   margin:90px 0;
@@ -157,7 +164,8 @@ footer ul li{
 .social-media{
   display: flex;
   justify-content: center;
-  margin-bottom: 36px;
+  margin-top: 36px;
+margin-bottom:45px;
 }
 .icon{
   width: 40px;
