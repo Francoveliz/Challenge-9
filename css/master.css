@@ -294,6 +294,7 @@ footer ul li {
   }
 
   footer {
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
@@ -301,8 +302,14 @@ footer ul li {
   .footer-text:nth-child(2) {
     max-width: 400px;
   }
+.four-column{
+text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.social-media{
+  align-self:flex-start;
 
-  .copyright {
-    margin-top: 220px;
-  }
+}
 }
